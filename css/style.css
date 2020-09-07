@@ -1,0 +1,312 @@
+/* hlavička Ketomix */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #434343;
+    font-size: 16px;
+    letter-spacing: -0.36px;
+    line-height: 19px;
+}
+header {
+    height: 263px;
+}
+main {
+    height: 1580px;
+}
+a {
+    text-decoration: none;
+}
+.top-navigation-bar {
+    border-bottom: #e0e0e0 solid 1px;
+    padding: 6px 0 7px 0;
+    height: 40px;
+}
+.telefon-top {
+    padding-top: 10px;
+    width: 370px;
+    height: 70px;
+    font-size: 12px;
+    margin-left: 35%;
+    z-index: 1;
+    background: #fff;
+    float: left;
+}
+.p-right {
+    margin-left: 30px;
+    height: 60px;
+    width: 307px;
+    font-size: 14px;
+} 
+.p-right img {
+    height: 16px;
+    width: 16px;
+    margin-top: 3px;
+}
+.p-right p {
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
+.telefon-top a {
+    text-decoration: none;
+    color: #7C7D7C;
+    font-size: 15px;
+}
+.project-phone::after {
+    content: "";
+    display: inline-block;
+    color: rgb(67, 67, 67);
+    margin-left: 3px;
+    font-size: 12px;
+}
+.prihlaseni {
+    float: right;
+    width: 260px;
+    padding-top: 10px;
+}
+.prihlaseni img {
+    height: 16px;
+    width: 16px;
+}
+.prihlaseni a {
+    color: rgb(37, 37, 37);
+    font-size: 16px;
+    margin: 0 10px 0 5px;
+}
+.prihlaseni a:hover {
+    color: #AD162A;
+    text-decoration: underline;
+}
+
+/* sekce logo */
+.header-top {
+    clear: both;
+    height: 110px;
+    width: auto;
+}
+.logo {
+   float: left;
+   width: 190px;
+   height: 110px;
+}
+.logo img {
+    width: 180px;
+    height: 90px;
+    padding: 10px;
+    margin: 0;
+}
+/* vyhledávání */
+.search {
+    margin: 35px 0 35px 255px;
+    padding: 0px;
+    width: 400px;
+    float: left;
+
+}
+.search p {
+    padding: 10px 95px 10px 30px;
+    color: #bdbdbd;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    /*display: block;*/
+    width: 375px;
+    margin: 0;
+}
+.default-button {
+    margin-top: 35px;
+    padding: 10px 30px;
+    border: 1px solid #686968;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #686968;
+    font-size: 16px;
+    float: left;
+}
+.kosik {
+    display: inline;
+}
+.icon {
+    background: url(../img/moje-img/coffee-solid.svg) no-repeat;
+    width: 48px;
+    height: 48px;
+    margin: 32px auto auto 210px;
+    float: left;
+   
+}
+.kosik p {
+    margin: 35px auto auto -17px;
+    float: left;
+    color: #7C7D7C;
+    border: 1px solid #dadada;
+    border-left: #271a05;
+    border-radius: 4px; 
+    padding: 10px 40px 10px 40px;
+}
+
+/* menu */
+.horni-menu {
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 100%;
+    margin-right: 0;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;  
+}
+.horni-menu ul:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.horni menu ul {
+    margin: 0;
+    padding: 10px 0;
+    
+}
+
+.horni-menu li {
+    display: inline;
+    list-style: none;
+    margin-right: 0;
+    
+}
+.green-link {
+    font-weight: bold;
+    padding: 14px 31px;
+    background:#7C7D7C;
+    margin: 0 0;
+    border: none;  
+}
+.green-link a {
+    text-decoration: none; 
+    color: #fff;
+    
+}
+.nav-link a {
+    color: #686968;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 14px 31px;
+}
+.green-link a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.nav-link a:hover {
+    color: #686968;
+    text-decoration: underline;
+}
+/* horni fotka */
+.hero {
+    height: 500px;
+    width: 1423px;
+    background-image: url("../img/moje-img/paola-aguilar-0Y3hPEu0PzQ-unsplash.jpg");
+    
+}
+.breadcrumb {
+    height: 50px;
+    padding-top: 102px;
+}
+.home {
+    /*background: url(../img/moje-img/home-solid.svg) no-repeat;*/ 
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 18px;
+    left: 54%;
+    padding-right: 15px;
+}
+.home::after {
+    content: "/ O mně";
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: #777777;
+}
+.breadcrumb-text {
+    height: 200px;
+    margin-top: 47px;
+}
+.horni-cast {
+        color: #41393E;
+        font-size: 40px;
+        font-weight: bold;
+        letter-spacing: -0.89px;
+        line-height: 40px;
+        padding-left: 805px;
+}
+.text-foto {
+    color: #434343;
+    text-shadow: 1px 1px 2px #6d6d6d;
+    font-size: 28px;
+    font-style: italic;
+    letter-spacing: -0.62px;
+    line-height: 29.95px;
+    padding-left: 753px;
+    margin-bottom: 20px;
+    
+}
+
+/* sekce fotky */
+.foto-sekce {
+    height: 800px;
+    padding-top: 80px;
+}
+.container-text {
+    width: 588px;
+    height: 192px;
+    padding: 38px 56px;
+    background-color: #f6f6f6; 
+    font-size: 14px;
+}
+
+.foto-sekce-nadpis {
+    font-size: 23px;
+    font-weight: bold;
+}
+.container-left {
+    float: left;
+    width: 702px;
+}
+.shaker {
+    padding-top: 0;
+}
+.pancakes {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.cookies {
+    
+    float: right;
+    padding-top: 20px;
+}
+.container-text {
+    float: right;
+}
+.container-right {
+    float: right;
+    width: 698px;
+}
+.sweets {
+    float: left;
+    padding-top: 27px;
+}
+.detox {
+    float: right;
+    padding-top: 27px;
+}
+.pasta {
+    margin-left: -215px;
+    margin-top: -130px;
+}
+footer {
+    margin: 0;
+    color: #fff;
+    background: #686968;
+    text-align: center;
+    height: 40px;
+    padding-top: 15px;
+    margin-top: 60px;
+}
+footer p {
+   margin: 0;
+}
